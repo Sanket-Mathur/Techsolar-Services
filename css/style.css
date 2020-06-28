@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+#header {
+    background-color: #333;
+}
+#collapsable-nav a {
+    color: white;
+    font-weight: bold;
+}
+#navbar-button {
+    float: left;
+    margin-left: 15px;
+}
+.navbar-default {
+    border: 0;
+}
+#contact-info {
+    position: fixed;
+    right: 20px;
+    top: 0px;
+    color: white;
+}
+#contact-info h4 {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#contact-info a {
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+#index #main {
+    margin-top: 45px;
+}
+#index #name {
+    background-image: url(../images/main-image.jpg);
+    background-size: 100% 100%;
+    margin: -15px;
+    height: 93vh;
+    text-align: center;
+}
+#index #main #name h1 {
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 30vh;
+}
+#index #main .content {
+    text-align: center;
+    margin-top: 200px;
+}
+#index #main #contact {
+    background-color: #1f2f61;
+    padding: 50px;
+}
+#index #main #contact h3 {
+    color: white;
+    font-weight: bold;
+}
+#index #main #contact a {
+    background: white;
+    padding: 20px 100px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1f2f61;
+}
+#index #main #contact a:hover {
+    background: #121c3a;
+    color: white;
+}
+#index #main #services h2 {
+    text-align: center;
+    margin: 50px;
+    font-weight: bold;
+}
+#index #main #services h3 {
+    font-weight: bold;
+}
+#index #main #services h4 {
+    margin-bottom: 50px;
+}
