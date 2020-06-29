@@ -4,6 +4,7 @@
 
 html, body {
     overflow-x: hidden;
+    background-color: #e6e6e6;
 }
 
 #header {
@@ -36,8 +37,23 @@ html, body {
     margin: 0;
 }
 
+#foot {
+    background: #333;
+    color: white;
+}
+#foot #copy {
+    text-align: center;
+}
+#foot hr.sep {    
+    border-top: 1px solid white;
+    width: 50%;
+}
+
 #index #main {
     margin-top: 45px;
+}
+#index h2, #index h3 {
+    font-weight: bold;
 }
 #index #name {
     background-image: url(../images/main-image.jpg);
@@ -48,24 +64,24 @@ html, body {
 }
 #index #main #name h1 {
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
     padding-top: 30vh;
 }
 #index #main .content {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 #index #main #contact {
     background-color: #1f2f61;
     padding: 50px;
+    margin-top: 40px;
 }
 #index #main #contact h3 {
     color: white;
-    font-weight: bold;
 }
 #index #main #contact a {
     background: white;
-    padding: 20px 100px;
+    padding: 20px 40px;
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
@@ -76,14 +92,39 @@ html, body {
     background: #121c3a;
     color: white;
 }
-#index #main #services h2 {
+#index #myCarousel {
+    margin: 20px -15px;
+}
+#index .item img {
+    width: 30%;
+    display: inline;
+}
+@media (min-width: 767px) {
+    #index .item img {
+        width: 19%;
+    }
+    #index #main #contact a {
+        padding: 20px 100px;
+    }
+    #index #main #name h1 {
+        font-size: 60px;
+    }
+    #index #main .content {
+        margin-top: 200px;
+    }
+}
+#index #main .services h2 {
     text-align: center;
     margin: 50px;
-    font-weight: bold;
 }
-#index #main #services h3 {
-    font-weight: bold;
-}
-#index #main #services h4 {
+#index #main .services h4 {
     margin-bottom: 50px;
+}
+#index #main .services a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.5s;
+}
+#index #main .services a:hover {
+    opacity: 0.5;
 }
