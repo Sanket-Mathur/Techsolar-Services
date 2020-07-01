@@ -51,38 +51,43 @@ html, body {
 #foot a {
     text-decoration: none;
 }
+#loading {
+    margin: 23%;
+    transform: scale(1.5);
+}
 
-#index #main {
+/*Index Page*/
+#main {
     margin-top: 45px;
 }
-#index h2, #index h3 {
+#main h2, h3 {
     font-weight: bold;
 }
-#index #name {
+#main #name {
     background-image: url(../images/main-image.jpg);
     background-size: 100% 100%;
     margin: -15px;
     height: 93vh;
     text-align: center;
 }
-#index #main #name h1 {
+#main #name h1 {
     font-weight: bold;
     font-size: 50px;
     padding-top: 30vh;
 }
-#index #main .content {
+#main .content {
     text-align: center;
     margin-top: 50px;
 }
-#index #main #contact {
+#main #contact {
     background-color: #1f2f61;
     padding: 50px;
     margin-top: 40px;
 }
-#index #main #contact h3 {
+#main #contact h3 {
     color: white;
 }
-#index #main #contact a {
+#main #contact a {
     background: white;
     padding: 20px 40px;
     border-radius: 5px;
@@ -91,80 +96,82 @@ html, body {
     text-decoration: none;
     color: #1f2f61;
 }
-#index #main #contact a:hover {
+#main #contact a:hover {
     background: #121c3a;
     color: white;
 }
-#index #myCarousel {
+#main #myCarousel {
     margin: 20px -15px;
 }
-#index .item img {
+#main .item img {
     width: 30%;
     display: inline;
 }
-#index #main .services h2 {
+#main .services h2 {
     text-align: center;
     margin: 50px;
 }
-#index #main .services h4 {
+#main .services h4 {
     margin-bottom: 50px;
 }
-#index #main .services a {
+#main .services a {
     text-decoration: none;
     color: inherit;
 }
-#index #main .services a img {
+#main .services a img {
     transition: 0.5s;
 }
-#index #main .services a:hover img {
+#main .services a:hover img {
     transform: scale(1.5);
 }
 
-#contact #form {
+/*Contact form*/
+#main #form {
     width: 80%;
     margin: 10%;
     padding: 5%;
     box-shadow: 0 0 10px 1px #08c;
     border-radius: 10px;
 }
-#contact #form h1 {
+#main #form h1 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
 }
-#contact #form h2 {
+#main #form h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
 }
-#contact #form .inp {
+#main #form .inp {
     width: 100%;
     font-size: 25px;
     padding: 10px;
     box-shadow: 0 0 10px 1px #08c;
     border-radius: 10px;
 }
-#contact #form #submit {
-    width: 30%;
-    margin: 50px 35% 0 35%;
+#main #form #submit {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
     background: #08c;
     border-radius: 10px;
     color: white;
     font-size: 30px;
     font-weight: bold;
-    padding: 20px;
+    padding: 10px;
 }
 
 @media (min-width: 767px) {
-    #index .item img {
+    #main .item img {
         width: 19%;
     }
-    #index #main #contact a {
+    #main #contact a {
         padding: 20px 100px;
     }
-    #index #main #name h1 {
+    #main #name h1 {
         font-size: 60px;
     }
-    #index #main .content {
+    #main .content {
         margin-top: 200px;
     }
 }
