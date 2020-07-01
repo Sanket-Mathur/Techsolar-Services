@@ -48,6 +48,9 @@ html, body {
     border-top: 1px solid white;
     width: 50%;
 }
+#foot a {
+    text-decoration: none;
+}
 
 #index #main {
     margin-top: 45px;
@@ -99,6 +102,58 @@ html, body {
     width: 30%;
     display: inline;
 }
+#index #main .services h2 {
+    text-align: center;
+    margin: 50px;
+}
+#index #main .services h4 {
+    margin-bottom: 50px;
+}
+#index #main .services a {
+    text-decoration: none;
+    color: inherit;
+}
+#index #main .services a img {
+    transition: 0.5s;
+}
+#index #main .services a:hover img {
+    transform: scale(1.5);
+}
+
+#contact #form {
+    width: 80%;
+    margin: 10%;
+    padding: 5%;
+    box-shadow: 0 0 10px 1px #08c;
+    border-radius: 10px;
+}
+#contact #form h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+#contact #form h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+#contact #form .inp {
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px #08c;
+    border-radius: 10px;
+}
+#contact #form #submit {
+    width: 30%;
+    margin: 50px 35% 0 35%;
+    background: #08c;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+}
+
 @media (min-width: 767px) {
     #index .item img {
         width: 19%;
@@ -112,19 +167,4 @@ html, body {
     #index #main .content {
         margin-top: 200px;
     }
-}
-#index #main .services h2 {
-    text-align: center;
-    margin: 50px;
-}
-#index #main .services h4 {
-    margin-bottom: 50px;
-}
-#index #main .services a {
-    text-decoration: none;
-    color: inherit;
-    transition: 0.5s;
-}
-#index #main .services a:hover {
-    opacity: 0.5;
 }
