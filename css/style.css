@@ -14,6 +14,12 @@ html, body {
     color: white;
     font-weight: bold;
 }
+#collapsable-nav a.active {
+    color: #66ccff;
+}
+#collapsable-nav a:hover:not(.active) {
+    color: #a6a6a6;
+}
 #navbar-button {
     float: left;
     margin-left: 15px;
@@ -123,6 +129,16 @@ html, body {
 }
 #main .services a:hover img {
     transform: scale(1.5);
+}
+
+/*Projects Page*/
+#main .img-projects {
+    width: 100%;
+    height: 100%;
+}
+#main .pro-col {
+    height: 400px;
+    padding: 0;
 }
 
 /*Contact form*/
