@@ -72,6 +72,7 @@ html, body {
 #main #name {
     background-image: url(../images/main-image.jpg);
     background-size: 100% 100%;
+    background-attachment: fixed;
     margin: -15px;
     height: 93vh;
     text-align: center;
@@ -83,7 +84,7 @@ html, body {
 }
 #main .content {
     text-align: center;
-    margin-top: 50px;
+    padding: 30px;
 }
 #main #contact {
     background-color: #1f2f61;
@@ -131,7 +132,49 @@ html, body {
     transform: scale(1.5);
 }
 
+/*Services Page*/
+.banner {
+    height: 70vh;
+    margin: -20px -15px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+}
+.banner:nth-child(1) {
+    background-image: url(../images/Display/4.jpeg);
+    margin-top: -3px;
+}
+.banner:nth-child(3) {
+    background-image: url(../images/Display/5.jpeg);
+}
+.banner:nth-child(5) {
+    background-image: url(../images/Display/9.jpeg);
+}
+.banner:nth-child(7) {
+    background-image: url(../images/Display/10.jpeg);
+}
+.banner:nth-child(9) {
+    background-image: url(../images/Display/15.jpeg);
+}
+.banner:nth-child(11) {
+    background-image: url(../images/Display/18.jpeg);
+}
+.banner h2 {
+    font-size: 50px;
+    padding-top: 100px;
+}
+.banner h3 {
+    padding: 80px;
+}
+.service-paras h4 {
+    margin: 80px 25px;
+    text-align: justify;
+}
+
 /*Projects Page*/
+#main #pro-start {
+    margin-top: 50px;
+}
 #main .img-projects {
     width: 100%;
     height: 100%;
@@ -140,11 +183,14 @@ html, body {
     height: 400px;
     padding: 0;
 }
+#main .pro-col h4 {
+    padding: 0 50px;
+}
 
 /*Contact form*/
 #main #form {
-    width: 80%;
-    margin: 10%;
+    width: 90%;
+    margin: 20% 5%;
     padding: 5%;
     box-shadow: 0 0 10px 1px #08c;
     border-radius: 10px;
@@ -189,5 +235,21 @@ html, body {
     }
     #main .content {
         margin-top: 200px;
+    }
+    #main #form {
+        width: 60%;
+        margin: 10% 20%;
+    }
+    .banner {
+        margin: 5px 10%;
+    }
+    .service-paras h4 {
+        margin: 80px 20%;
+    }
+    .service-paras div:nth-child(1) h4 {
+        margin-right: 5%;
+    }
+    .service-paras div:nth-child(2) h4 {
+        margin-left: 5%;
     }
 }
