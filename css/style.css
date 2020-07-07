@@ -62,11 +62,20 @@ html, body {
     transform: scale(1.5);
 }
 
+/*Common*/
+#main #heading {
+    background: #66ccff;
+    margin: -15px -15px 50px -15px;
+    padding: 20px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
 /*Index Page*/
 #main {
     margin-top: 45px;
 }
-#main h2, h3 {
+#main h1, h2, h3 {
     font-weight: bold;
 }
 #main #name {
@@ -133,42 +142,63 @@ html, body {
 }
 
 /*Services Page*/
-.banner {
+#main .banner {
     height: 70vh;
     margin: -20px -15px;
     background-size: 100% 100%;
     background-attachment: fixed;
     color: white;
 }
-.banner:nth-child(1) {
+#main .banner:nth-child(2) {
     background-image: url(../images/Display/4.jpeg);
     margin-top: -3px;
 }
-.banner:nth-child(3) {
+#main .banner:nth-child(4) {
     background-image: url(../images/Display/5.jpeg);
 }
-.banner:nth-child(5) {
+#main .banner:nth-child(6) {
     background-image: url(../images/Display/9.jpeg);
 }
-.banner:nth-child(7) {
+#main .banner:nth-child(8) {
     background-image: url(../images/Display/10.jpeg);
 }
-.banner:nth-child(9) {
+#main .banner:nth-child(10) {
     background-image: url(../images/Display/15.jpeg);
 }
-.banner:nth-child(11) {
+#main .banner:nth-child(12) {
     background-image: url(../images/Display/18.jpeg);
 }
-.banner h2 {
+#main .banner h2 {
     font-size: 50px;
-    padding-top: 100px;
+    padding-top: 80px;
 }
-.banner h3 {
-    padding: 80px;
+#main .banner h3 {
+    padding: 60px;
 }
-.service-paras h4 {
+#main .service-paras h4 {
     margin: 80px 25px;
     text-align: justify;
+}
+#main .button-container {
+    padding-bottom: 80px;
+}
+#main .button {
+    background-color: #bfbfbf;
+    padding: 20px 80px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 30px;
+}
+#main .button:hover {
+    background: #cccccc;
+    color: black;
+}
+
+/*About Page*/
+#main #about-obj {
+    margin: 0 20px;
 }
 
 /*Projects Page*/
@@ -190,7 +220,7 @@ html, body {
 /*Contact form*/
 #main #form {
     width: 90%;
-    margin: 20% 5%;
+    margin: 10% 5%;
     padding: 5%;
     box-shadow: 0 0 10px 1px #08c;
     border-radius: 10px;
@@ -223,6 +253,7 @@ html, body {
     padding: 10px;
 }
 
+/*Media Query*/
 @media (min-width: 767px) {
     #main .item img {
         width: 19%;
@@ -238,18 +269,24 @@ html, body {
     }
     #main #form {
         width: 60%;
-        margin: 10% 20%;
+        margin: 5% 20%;
     }
-    .banner {
+    #main .banner {
         margin: 5px 10%;
     }
-    .service-paras h4 {
+    #main .button-container {
+        margin-top: 90px;
+    }
+    #main #about-obj {
+        margin: 40px 20%;
+    }
+    #main .service-paras h4 {
         margin: 80px 20%;
     }
-    .service-paras div:nth-child(1) h4 {
+    #main .service-paras div:nth-child(1) h4 {
         margin-right: 5%;
     }
-    .service-paras div:nth-child(2) h4 {
+    #main .service-paras div:nth-child(2) h4 {
         margin-left: 5%;
     }
 }
