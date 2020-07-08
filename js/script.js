@@ -33,11 +33,10 @@ $(function () {
 	};
     
     var removeActive = function () {
-        document.querySelector("#n-hom").removeAttribute("class")
-        document.querySelector("#n-ser").removeAttribute("class")
-        document.querySelector("#n-pro").removeAttribute("class")
-        document.querySelector("#n-abo").removeAttribute("class")
-        document.querySelector("#n-con").removeAttribute("class")
+        document.querySelector("#n-hom").removeAttribute("class");
+        document.querySelector("#n-ser").removeAttribute("class");
+        document.querySelector("#n-abo").removeAttribute("class");
+        document.querySelector("#n-con").removeAttribute("class");
     }
 
     document.addEventListener("DOMContentLoaded", function (event) {
@@ -98,19 +97,6 @@ $(function () {
         document.querySelector("#n-abo").setAttribute("class", "active")
         $ajaxUtils.sendGetRequest(
             aboutHtml,
-            function (responseText) {
-                document.querySelector("#main").innerHTML = responseText;
-            },
-            false
-        );
-    }
-    
-    ts.loadProjects = function () {
-        showLoading("#main");
-        removeActive();
-        document.querySelector("#n-pro").setAttribute("class", "active")
-        $ajaxUtils.sendGetRequest(
-            projectHtml,
             function (responseText) {
                 document.querySelector("#main").innerHTML = responseText;
             },
