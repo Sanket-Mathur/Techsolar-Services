@@ -149,23 +149,23 @@ html, body {
     color: white;
 }
 #main .banner:nth-child(2) {
-    background-image: url(../images/Display/4.jpeg);
+    background-image: url(../images/Display/w-1.jpeg);
     margin-top: -3px;
 }
 #main .banner:nth-child(4) {
-    background-image: url(../images/Display/5.jpeg);
+    background-image: url(../images/Display/w-2.jpeg);
 }
 #main .banner:nth-child(6) {
-    background-image: url(../images/Display/9.jpeg);
+    background-image: url(../images/Display/w-3.jpeg);
 }
 #main .banner:nth-child(8) {
-    background-image: url(../images/Display/10.jpeg);
+    background-image: url(../images/Display/w-4.jpeg);
 }
 #main .banner:nth-child(10) {
-    background-image: url(../images/Display/15.jpeg);
+    background-image: url(../images/Display/w-5.jpeg);
 }
 #main .banner:nth-child(12) {
-    background-image: url(../images/Display/18.jpeg);
+    background-image: url(../images/Display/w-6.jpeg);
 }
 #main .banner h2 {
     font-size: 50px;
@@ -183,12 +183,12 @@ html, body {
 }
 #main .button {
     background-color: #bfbfbf;
-    padding: 20px 80px;
+    padding: 20px 60px;
     border: 2px solid black;
     border-radius: 20px;
     text-decoration: none;
     color: inherit;
-    font-size: 30px;
+    font-size: 20px;
 }
 #main .button:hover {
     background: #cccccc;
